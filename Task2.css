@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.about_container{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    height: auto;
+    background-size: cover;
+    padding: 28px;
+}
+.ab_header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+.img_det{
+    position: relative;
+    left: 10%;
+    margin: auto;    
+}
+.ab_btn {
+    display: block;
+    width: 115px;
+    height: 30px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 5px;
+    
+}
+.ab_btn_top {
+    /* display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 5px;
+    float: inline-end; */
+    width: 110px;
+    height: 40px;
+    float: inline-end;
+    margin-top: 5px;
+    
+}
+@media screen and (min-width: 992px){
+    .screen_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+ul{
+    text-align: center;
+}
+ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 19px;
+    text-align: left;
+    margin-left: 18px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.about_header_container{
+    margin-bottom: 20px;
+}
+.about_desc_container{
+    width: 320px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+.embded_bg{
+    background-color: antiquewhite;
+    height: 100vh;
+    
+}
+.inner_container{
+    background-color: antiquewhite;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    margin-top: 20px;
+}
+.df_btn{
+        display: block;
+        width: 115px;
+        height: 40px;
+        background: #4E9CAF;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        line-height: 25px;
+        margin-top: 5px;
+        
+}
